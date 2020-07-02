@@ -16,6 +16,9 @@ var __dirname = path.resolve()
 // Doesn't take any arguments
 // We can configure our server using various methods on 'app' now
 const app = express()
+// Heroku will provide us with a unique port dynamically to run our app
+// via an environment variable (a key value pair, here set-up by Heroku, at the OS level)
+const port = process.env.PORT || 3000 // default/local value: 3000
 
 // Define Paths for Express config
 const publicDirPath = path.join(__dirname, '/public')
@@ -159,8 +162,8 @@ app.get('*', (req, res) => {
 })
 
 // To start up the server
-app.listen(3000, () => {
-    console.log('Server is up on port 3000')
+app.listen(port, () => {
+    console.log('Server is up on port ' + port)
 }) // port for local development env -> localhost:3000
 
 // Handlebars Templating Engine
