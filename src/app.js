@@ -115,6 +115,7 @@ app.get('/weather', (req, res) => {
                 temp: response.temperature,
                 precip: response.precip,
                 desc: response.description,
+                humid: response.humidity,
                 appTemp: response.apparentTemperature,
                 location
             })

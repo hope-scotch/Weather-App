@@ -38,7 +38,7 @@ weatherForm.addEventListener('submit', (event) => {
                 msgBody.textContent = data.error
             } else {
                 msgTitle.textContent = data.location
-                const displayMsg = data.desc + '. \nIt is ' + data.temp + ' degree Celsius. Feels like ' + data.appTemp + ' degrees. There is a ' + data.precip + '% chance of rain.'
+                const displayMsg = data.desc + '. \nIt is currently ' + data.temp + ' degree Celsius. Feels like ' + data.appTemp + ' degrees. There is a ' + data.precip + '% chance of rain. It is ' + data.humid + '% humid.'
                 msgBody.textContent = displayMsg
             }
         })
