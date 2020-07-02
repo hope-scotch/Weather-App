@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded')
+// console.log('Client side javascript file is loaded')
 
 // Fetch API -> Available to most modern-day browser
 // Browser-based API -> Cannot be used with backend JS
