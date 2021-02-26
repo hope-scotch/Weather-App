@@ -6,4 +6,4 @@ API(s) used:
 1. Weather-Stack API
 2. Mapbox Geolocation API
 
-![alt text](https://drive.google.com/file/d/1l_Tt1GGejP8OmZ2IV_8wDqQx2-pTfoF9/view?usp=sharing)
+![alt text](https://drive.google.com/file/d/1l_Tt1GGejP8OmZ2IV_8wDqQx2-pTfoF9/view)
